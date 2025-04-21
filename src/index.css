@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+
+
+body{
+  background-color: #09090b;
+  min-height: 100vh;
+  color: #fafafa;
+  font-family: 'Inter Variable', sans-serif;
+}
