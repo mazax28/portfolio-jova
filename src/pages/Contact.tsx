@@ -29,13 +29,14 @@ function Contact() {
   const fields = ["name", "lastname", "email", "phone"] as const;
 
   return (
-    <div id="contact" className="min-h-screen py-12 px-4">
+    <div id="contact" className="hero min-h-screen py-[2rem] px-[1rem] md:px-[2rem] lg:px-[4rem]">
       <div className="hero-content flex-col w-full gap-4">
-
-        {/* Título alineado a la izquierda */}
-        <h1 className="text-[50px] md:text-[70px] lg:text-[90px] font-semibold leading-tight self-start text-left mb-4">
-          Contacto
-        </h1>
+        <div className="w-full text-left">
+          <h1 className="text-[50px] md:text-[70px] lg:text-[90px] font-semibold leading-tight mb-4">
+            Contacto
+          </h1>
+        </div>
+    
 
         {/* Contenido principal */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full">

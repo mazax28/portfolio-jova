@@ -2,7 +2,7 @@
 function Home() {
   return (
     <div id="home" className="hero min-h-screen">
-      <div className="hero-content flex-col lg:flex-row justify-between w-full">
+      <div className="hero-content flex-col gap-16 lg:flex-row lg:gap-2 justify-between w-full">
         
         {/* Columna 1 - Título alineado a la izquierda y abajo */}
         <div className="flex-1 flex items-end justify-start">

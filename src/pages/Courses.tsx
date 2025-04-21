@@ -21,13 +21,16 @@ function Courses() {
     ];
   
     return (
-      <div id="courses" className="min-h-screen py-12 md:px-2 lg:px-4">
+      <div id="courses" className="hero min-h-screen py-[2rem] px-[1rem] md:px-[2rem] lg:px-[4rem]">
         <div className="hero-content flex-col w-full gap-12">
+          <div className="w-full text-left">
+            <h1 className="text-[50px] md:text-[70px] lg:text-[90px] font-semibold leading-tight mb-4">
+              Cursos
+            </h1>
+          </div>
   
           {/* Título alineado izquierda */}
-          <h1 className="text-[60px] md:text-[80px] lg:text-[90px] font-semibold leading-tight self-start text-left">
-            Cursos
-          </h1>
+          
   
           {/* Grid de cursos */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
