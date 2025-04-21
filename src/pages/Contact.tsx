@@ -1,12 +1,18 @@
 import { useForm } from "react-hook-form";
-
+type FormData = {
+  name: string;
+  lastname: string;
+  email: string;
+  phone: string;
+  message: string;
+};
 function Contact() {
   const {
     register,
     handleSubmit,
     formState: { errors },
     reset,
-  } = useForm({
+  } = useForm<FormData>({
     defaultValues: {
       name: "",
       lastname: "",
@@ -16,10 +22,11 @@ function Contact() {
     },
   });
 
-  const onSubmit = (data) => {
+  const onSubmit = (data:FormData) => {
     console.log("Form submitted:", data);
     reset();
   };
+  const fields = ["name", "lastname", "email", "phone"] as const;
 
   return (
     <div id="contact" className="min-h-screen py-12 px-4">
@@ -37,7 +44,7 @@ function Contact() {
             onSubmit={handleSubmit(onSubmit)}
             className="space-y-4"
           >
-            {["name", "lastname", "email", "phone"].map((field) => (
+            {fields.map((field) => (
               <div key={field}>
                 <input
                   type="text"
