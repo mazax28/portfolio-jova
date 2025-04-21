@@ -1,4 +1,6 @@
 
+import {Link} from "react-scroll"
+
 function Navbar() {
   return (
     <div className="navbar fixed top-0 left-0 w-full border-2  border-white/10 backdrop-blur-md shadow-md z-50">
@@ -10,20 +12,22 @@ function Navbar() {
             <ul
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-[#161616] rounded-box z-1 mt-3 w-52 p-2 shadow">
-            <li><a>Inicio</a></li>
-            <li><a>Sobre mi</a></li>
-            <li><a>Proyectos</a></li>
-            <li><a>Contacto</a></li>
+            <Link to='home' smooth={true} duration={500}><li><a>Inicio</a></li></Link>
+            <Link to='about' smooth={true} duration={500}><li><a>Sobre mi</a></li></Link>
+            <Link to='projects' smooth={true} duration={500}><li><a>Proyectos</a></li></Link>
+            <Link to='courses' smooth={true} duration={500}><li><a>Cursos</a></li></Link>
+            <Link to='contact' smooth={true} duration={500}><li><a>Contacto</a></li></Link>
             </ul>
         </div>
         <a className="btn btn-ghost text-xl">daisyUI</a>
         </div>
         <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 font-light"> 
-            <li><a>Inicio</a></li>
-            <li><a>Sobre mi</a></li>
-            <li><a>Proyectos</a></li>
-            <li><a>Contacto</a></li>
+            <Link to='home' smooth={true} duration={500} offset={-64}><li><a>Inicio</a></li></Link>
+            <Link to='about' smooth={true} duration={500} offset={-64}><li><a>Sobre mi</a></li></Link>
+            <Link to='projects' smooth={true} duration={500} offset={-64}><li><a>Proyectos</a></li></Link>
+            <Link to='courses' smooth={true} duration={500} offset={-64}><li><a>Cursos</a></li></Link>
+            <Link to='contact' smooth={true} duration={500} offset={-64}><li><a>Contacto</a></li></Link>
         </ul>
         </div>
         <div className="navbar-end flex items-center gap-2">
@@ -31,7 +35,7 @@ function Navbar() {
             <option>ES</option>
             <option>EN</option>
         </select>
-        <a className="btn btn-outline  hover:bg-[#09090b] ">Descargar CV</a>
+        <a className="btn border border-[#fafafa] bg-[#09090b]">Descargar CV</a>
         </div>
   </div>
   )
