@@ -6,13 +6,13 @@ function Footer() {
   <nav>
     <div className="grid grid-flow-col gap-4">
       <a className='btn btn-outline hover:bg-[#09090b]'>
-        <i class="ri-twitter-x-line"></i>
+        <i className="ri-twitter-x-line"></i>
       </a>
       <a className='btn btn-outline hover:bg-[#09090b]'>
-      <i class="ri-linkedin-line"></i>
+      <i className="ri-linkedin-line"></i>
       </a>
       <a className='btn btn-outline hover:bg-[#09090b]'>
-      <i class="ri-youtube-line"></i>
+      <i className="ri-youtube-line"></i>
       </a>
     </div>
   </nav>
