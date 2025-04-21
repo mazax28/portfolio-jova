@@ -2,30 +2,30 @@ function Courses() {
     const cursos = [
       {
         title: "Diseño Arquitectónico",
-        image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+        image: "/images/certificado.png",
         description: "Curso sobre técnicas modernas de diseño sostenible.",
         etiquetas: ["Arquitectura", "Diseño"],
       },
       {
         title: "Revit Avanzado",
-        image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+        image: "/images/certificado.png",
         description: "Domina modelado BIM con Revit.",
         etiquetas: ["BIM", "Revit"],
       },
       {
         title: "Renderizado con Lumion",
-        image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+        image: "/images/certificado.png",
         description: "Aprende a crear renders realistas y animaciones.",
         etiquetas: ["Lumion", "Render"],
       },
     ];
   
     return (
-      <div id="courses" className="min-h-screen py-12 px-4">
+      <div id="courses" className="min-h-screen py-12 md:px-2 lg:px-4">
         <div className="hero-content flex-col w-full gap-12">
   
           {/* Título alineado izquierda */}
-          <h1 className="text-[60px] md:text-[80px] lg:text-[112px] font-semibold leading-tight self-start text-left">
+          <h1 className="text-[60px] md:text-[80px] lg:text-[90px] font-semibold leading-tight self-start text-left">
             Cursos
           </h1>
   
@@ -34,7 +34,7 @@ function Courses() {
             {cursos.map((curso, idx) => (
               <div
                 key={idx}
-                className="card w-full bg-white/5 backdrop-blur-md border border-[#fafafa] rounded-lg shadow-md"
+                className="card w-full bg-white/5 backdrop-blur-md rounded-lg shadow-md"
               >
                 <figure>
                   <img
