@@ -39,11 +39,11 @@ function Contact() {
     
 
         {/* Contenido principal */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full md:justify-items-center  ">
           {/* Formulario */}
           <form
             onSubmit={handleSubmit(onSubmit)}
-            className="space-y-4"
+            className="space-y-4 w-full"
           >
             {fields.map((field) => (
               <div key={field}>
