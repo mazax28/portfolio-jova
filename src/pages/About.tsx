@@ -1,4 +1,3 @@
-import React from 'react';
 function About() {
   return (
     <div className="min-h-screen px-12 py-8">
