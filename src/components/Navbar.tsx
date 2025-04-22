@@ -19,7 +19,7 @@ function Navbar() {
             <Link to='contact' smooth={true} duration={500}><li><a>Contacto</a></li></Link>
             </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <a className="btn btn-ghost text-xl hidden md:block">daisyUI</a>
         </div>
         <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 font-light"> 
