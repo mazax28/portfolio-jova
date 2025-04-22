@@ -35,7 +35,7 @@ function Navbar() {
             <option>ES</option>
             <option>EN</option>
         </select>
-        <a className="btn border border-[#fafafa] bg-[#09090b]">Descargar CV</a>
+        <a href="/documents/CV_JORGE_VAZQUEZ.pdf" className="btn border border-[#fafafa] bg-[#09090b]" download>Descargar CV</a>
         </div>
   </div>
   )
