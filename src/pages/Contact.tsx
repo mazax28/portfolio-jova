@@ -104,7 +104,7 @@ function Contact() {
               <i className="ri-mail-line text-4xl text-[#fafafa]"></i>
               <div>
                 <p className="text-gray-400 text-sm">Email</p>
-                <p className="text-sm">marcoskrause2002@gmail.com</p>
+                <p className="text-sm">Jorgevazquezarq1@gmail.com</p>
               </div>
             </div>
 
@@ -112,7 +112,7 @@ function Contact() {
               <i className="ri-phone-fill text-4xl text-[#fafafa]"></i>
               <div>
                 <p className="text-gray-400 text-sm">Teléfono</p>
-                <p className="text-sm">(+595) 986 746 209</p>
+                <p className="text-sm">(+595) 961 411 695</p>
               </div>
             </div>
 
@@ -120,7 +120,7 @@ function Contact() {
               <i className="ri-map-pin-2-line text-4xl text-[#fafafa]"></i>
               <div>
                 <p className="text-gray-400 text-sm">Ubicación</p>
-                <p className="text-sm">Asunción, Paraguay</p>
+                <p className="text-sm">San Lorenzo, Paraguay</p>
               </div>
             </div>
           </div>
