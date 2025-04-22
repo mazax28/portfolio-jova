@@ -16,7 +16,7 @@ function Home() {
           <div className="card max-w-sm border border-[#fafafa] rounded-lg shadow-2xl p-6">
             <h2 className="text-2xl font-bold mb-2">Hola, soy Jorge Vazquez</h2>
             <p className="text-[14px] text-gray-300 font-semibold ">
-              Soy un estudiante apasionado por el diseño arquitectónico, con enfoque en la innovación y sostenibilidad.
+              Soy un estudiante de Arquitectura y Urbanismo apasionado por el diseño arquitectónico, con enfoque en la innovación y sostenibilidad.
             </p>
           </div>
         </div>
